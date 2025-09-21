@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design de Sobrancelha Porto Alegre | Jardim das Flores - Especialista em Sobrancelhas</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Design de sobrancelha Porto Alegre no Jardim das Flores. Especialista em micropigmentação, laminação e design personalizado. Realce sua beleza natural com técnicas modernas!">
+    <meta name="keywords" content="design de sobrancelha porto alegre, sobrancelha jardim das flores, micropigmentação porto alegre, laminação sobrancelha, salão sobrancelha porto alegre">
+    <meta name="author" content="Design de Sobrancelha Jardim das Flores">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Design de Sobrancelha Porto Alegre | Jardim das Flores">
+    <meta property="og:description" content="Especialista em design de sobrancelha em Porto Alegre. Realce sua beleza natural!">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Marked.js para renderizar Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-spa"></i>
+                    <span>Design de Sobrancelha</span>
+                </div>
+                <nav class="nav">
+                    <a href="#home">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Realce Sua <span class="highlight">Beleza Natural</span></h1>
+                    <p>Design de sobrancelha personalizado no Jardim das Flores, Porto Alegre. Técnicas modernas para valorizar sua harmonia facial única.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="openChat()">
+                            <i class="fas fa-comments"></i>
+                            Fale Conosco
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('servicos')">
+                            <i class="fas fa-arrow-down"></i>
+                            Ver Serviços
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <p>Sua beleza em destaque</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Técnicas especializadas para realçar sua beleza</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Design Personalizado</h3>
+                    <p>Análise facial completa para criar o formato perfeito para você</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <h3>Micropigmentação</h3>
+                    <p>Técnica shadow e fio a fio para sobrancelhas naturais e duradouras</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Laminação</h3>
+                    <p>Tratamento que alinha e disciplina os fios para um visual impecável</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Henna Natural</h3>
+                    <p>Coloração natural que nutre os fios e define o formato</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nossa Especialista</h2>
+                    <p>Com anos de experiência em design de sobrancelha, nossa especialista está localizada no coração do Jardim das Flores, Porto Alegre.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Técnicas modernas e atualizadas</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Atendimento personalizado e exclusivo</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ambiente acolhedor e higienizado</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Foco na harmonia facial natural</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-award"></i>
+                        <p>Especialista Certificada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="contato" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Localização</h2>
+                <p>Venha nos visitar no Jardim das Flores</p>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Jardim das Flores<br>Porto Alegre/RS</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Seg - Sex: 9h às 18h<br>Sáb: 9h às 15h</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-car"></i>
+                        <div>
+                            <h4>Estacionamento</h4>
+                            <p>Facilidade de acesso<br>Local seguro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-section">
+                    <h3>Pronta para realçar sua beleza?</h3>
+                    <p>Converse conosco e agende sua avaliação</p>
+                    <button class="btn btn-primary btn-large" onclick="openChat()">
+                        <i class="fas fa-comments"></i>
+                        Iniciar Conversa
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-spa"></i>
+                        <span>Design de Sobrancelha</span>
+                    </div>
+                    <p>Realçando sua beleza natural no Jardim das Flores, Porto Alegre</p>
+                </div>
+                <div class="footer-info">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jardim das Flores, Porto Alegre/RS</p>
+                    <p><i class="fas fa-envelope"></i> contato@designsobrancelha.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Design de Sobrancelha Porto Alegre. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-avatar">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="chat-info">
+                <h4>Design de Sobrancelha</h4>
+                <p>Especialista online</p>
+            </div>
+            <button class="chat-close" onclick="closeChat()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-avatar">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <div class="message-content">
+                    <p>Olá! Sou especialista em design de sobrancelha aqui no Jardim das Flores, Porto Alegre. Como posso ajudar você a realçar sua beleza natural hoje? 💄</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Digite sua mensagem...">
+            <button onclick="sendMessage()" id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        <div class="chat-loading" id="chatLoading">
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>Digitando...</p>
+        </div>
+    </div>
+
+    <!-- Chat Button -->
+    <button class="chat-button" id="chatButton" onclick="toggleChat()">
+        <i class="fas fa-comments"></i>
+        <span class="chat-notification">1</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
