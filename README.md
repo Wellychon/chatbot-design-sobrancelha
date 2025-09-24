@@ -8,7 +8,7 @@ Chatbot inteligente para profissionais de design de sobrancelha, desenvolvido co
 
 ## 🌟 Demo ao Vivo
 
-🔗 **[Acesse o Chatbot](https://projetomarcelo01-humltpli5-wellycont-6176s-projects.vercel.app)**
+🔗 **[Acesse o Chatbot](https://projetomarcelo01.vercel.app/)**
 
 ## 🚀 Características
 
