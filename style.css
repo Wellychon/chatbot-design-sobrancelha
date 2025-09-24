@@ -813,6 +813,129 @@ h4 { font-size: 1.25rem; }
     }
 }
 
+/* Salon Presentation Section */
+.salon-presentation {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #fdf5f8 0%, #fff 100%);
+}
+
+.salon-gallery {
+    margin: 3rem 0;
+}
+
+.gallery-item {
+    margin-bottom: 2rem;
+}
+
+.gallery-item .image-placeholder {
+    background: linear-gradient(135deg, #ff6b9d 0%, #e91e63 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(233, 30, 99, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-item .image-placeholder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(233, 30, 99, 0.3);
+}
+
+.gallery-item .image-placeholder i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.gallery-item .image-placeholder h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.gallery-item .image-placeholder h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.gallery-item .image-placeholder p {
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+.main-image {
+    margin-bottom: 3rem;
+}
+
+.main-image .image-placeholder {
+    padding: 4rem;
+    background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
+}
+
+.main-image .image-placeholder i {
+    font-size: 4rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+/* Salon Info Cards */
+.salon-info {
+    margin-top: 4rem;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-color: #ff6b9d;
+}
+
+.info-card i {
+    font-size: 2.5rem;
+    color: #e91e63;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.info-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.info-card p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     /* Mobile First Approach */
@@ -884,6 +1007,37 @@ h4 { font-size: 1.25rem; }
     .about,
     .location {
         padding: 60px 0;
+    }
+
+    /* Salon Presentation Mobile */
+    .salon-presentation {
+        padding: 3rem 0;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .gallery-item .image-placeholder {
+        padding: 2rem;
+    }
+
+    .main-image .image-placeholder {
+        padding: 3rem;
+    }
+
+    .main-image .image-placeholder i {
+        font-size: 3rem;
+    }
+
+    .info-cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .info-card {
+        padding: 1.5rem;
     }
 }
 
