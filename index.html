@@ -136,7 +136,12 @@
     </header>
 
     <!-- Hero Section -->
+        <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="./images/antes-depois-1.jpg" alt="Design de Sobrancelha - Bela Olhar" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -148,16 +153,13 @@
                             Fale Conosco
                         </button>
                         <button class="btn btn-secondary" onclick="scrollToSection('servicos')">
-                            <i class="fas fa-arrow-down"></i>
-                            Ver Serviços
+                            <i class="fas fa-palette"></i>
+                            Nossos Serviços
                         </button>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <div class="hero-placeholder">
-                        <i class="fas fa-user-circle"></i>
-                        <p>Sua beleza em destaque</p>
-                    </div>
+                    <img src="./images/design-sobrancelha-1.jpg" alt="Resultado Design de Sobrancelha" class="hero-featured-image">
                 </div>
             </div>
         </div>
@@ -175,29 +177,53 @@
                     <div class="service-image">
                         <img src="./images/design-sobrancelha-1.jpg" alt="Design Personalizado - Bela Olhar">
                     </div>
-                    <h3>Design Personalizado</h3>
-                    <p>Análise facial completa para criar o formato perfeito para você</p>
+                    <div class="service-content">
+                        <h3>Design Personalizado</h3>
+                        <p>Análise facial completa para criar o formato perfeito para você. Inclui medição, desenho e finalização.</p>
+                        <div class="service-details">
+                            <div class="service-price">A partir de R$ 45</div>
+                            <div class="service-duration">⏱️ 45 min</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="service-card">
                     <div class="service-image">
                         <img src="./images/micropigmentacao-1.jpg" alt="Micropigmentação - Bela Olhar">
                     </div>
-                    <h3>Micropigmentação</h3>
-                    <p>Técnica shadow e fio a fio para sobrancelhas naturais e duradouras</p>
+                    <div class="service-content">
+                        <h3>Micropigmentação</h3>
+                        <p>Técnica shadow e fio a fio para sobrancelhas naturais e duradouras. Resultado que dura até 2 anos.</p>
+                        <div class="service-details">
+                            <div class="service-price">A partir de R$ 280</div>
+                            <div class="service-duration">⏱️ 2h 30min</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="service-card">
                     <div class="service-image">
                         <img src="./images/laminacao-1.jpg" alt="Laminação de Sobrancelhas - Bela Olhar">
                     </div>
-                    <h3>Laminação</h3>
-                    <p>Tratamento que alinha e disciplina os fios para um visual impecável</p>
+                    <div class="service-content">
+                        <h3>Laminação de Sobrancelhas</h3>
+                        <p>Tratamento que alinha e disciplina os fios para um visual impecável. Efeito duradouro e natural.</p>
+                        <div class="service-details">
+                            <div class="service-price">A partir de R$ 85</div>
+                            <div class="service-duration">⏱️ 1h 15min</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="service-card">
                     <div class="service-image">
                         <img src="./images/henna-1.jpg" alt="Henna Natural - Bela Olhar">
                     </div>
-                    <h3>Henna Natural</h3>
-                    <p>Coloração natural que nutre os fios e define o formato</p>
+                    <div class="service-content">
+                        <h3>Henna Natural</h3>
+                        <p>Coloração natural que nutre os fios e define o formato. Produto 100% vegetal e hipoalergênico.</p>
+                        <div class="service-details">
+                            <div class="service-price">A partir de R$ 65</div>
+                            <div class="service-duration">⏱️ 50 min</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -252,21 +278,28 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Endereço</h4>
-                            <p>Jardim das Flores<br>Porto Alegre/RS</p>
+                            <p>Rua das Flores, 123<br>Jardim das Flores<br>Porto Alegre/RS - CEP: 91234-567</p>
                         </div>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-clock"></i>
                         <div>
-                            <h4>Horário</h4>
-                            <p>Seg - Sex: 9h às 18h<br>Sáb: 9h às 15h</p>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 16h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Contatos</h4>
+                            <p>📱 WhatsApp: (51) 99999-9999<br>☎️ Telefone: (51) 3333-4444<br>📧 contato@beloolhar.com.br</p>
                         </div>
                     </div>
                     <div class="info-card">
                         <i class="fas fa-car"></i>
                         <div>
                             <h4>Estacionamento</h4>
-                            <p>Facilidade de acesso<br>Local seguro</p>
+                            <p>Facilidade de acesso<br>Próximo ao Shopping Flores<br>Local seguro e conveniente</p>
                         </div>
                     </div>
                 </div>
@@ -347,8 +380,8 @@
 
     <!-- Chat Button -->
     <button class="chat-button" id="chatButton" onclick="toggleChat()">
-        <i class="fas fa-comments"></i>
-        <span class="chat-notification">1</span>
+        <i class="fas fa-comment-dots"></i>
+        <span class="chat-notification">💬</span>
     </button>
 
     <script src="script.js"></script>
