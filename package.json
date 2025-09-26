@@ -1,0 +1,27 @@
+{
+  "name": "bela-olhar-sobrancelha",
+  "version": "1.0.0",
+  "description": "Landing page para design de sobrancelha Bela Olhar - Jardim das Flores, Porto Alegre",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Build completed - static site'",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "sobrancelha",
+    "design",
+    "beleza",
+    "porto-alegre",
+    "jardim-das-flores",
+    "micropigmentação",
+    "laminação"
+  ],
+  "author": "Bela Olhar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wellychon/chatbot-design-sobrancelha.git"
+  },
+  "homepage": "https://bela-olhar-sobrancelha.vercel.app"
+}

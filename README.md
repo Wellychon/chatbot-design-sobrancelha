@@ -1,14 +1,14 @@
-# 💄 Chatbot Especializado em Design de Sobrancelha
+# 💄 Bela Olhar - Design de Sobrancelha
 
-![Status](https://img.shields.io/badge/Status-Em%20Produção-success)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Status](https://img.shields.io/badge/Status-Pronto%20para%20Deploy-success)
+![Version](https://img.shields.io/badge/Version-2.0.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Chatbot inteligente para profissionais de design de sobrancelha, desenvolvido com integração da API Gemini 2.0 Flash. Especializado para o mercado de Porto Alegre, oferecendo conhecimento técnico e comercial para profissionais da área.
+Landing page profissional com chatbot inteligente para o salão **Bela Olhar**, especializado em design de sobrancelha no Jardim das Flores, Porto Alegre. Sistema completo com respostas automáticas e interface moderna.
 
 ## 🌟 Demo ao Vivo
 
-🔗 **[Acesse o Chatbot](https://projetomarcelo01.vercel.app/)**
+🔗 **[Acesse a Landing Page](https://bela-olhar-sobrancelha.vercel.app/)**
 
 ## 🚀 Características
 
